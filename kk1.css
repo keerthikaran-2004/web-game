@@ -1,0 +1,58 @@
+/* Full-screen natural background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+              url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Game container */
+.container {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading and paragraph styles */
+.container h2 {
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
+.container p {
+  color: #555;
+  margin: 10px 0;
+}
+
+/* Input styling */
+input[type="number"] {
+  padding: 10px;
+  width: 200px;
+  border: 2px solid #2e7d76;
+  border-radius: 8px;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* Button styling */
+button {
+  background-color: #50194f;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5e491b;
+}
